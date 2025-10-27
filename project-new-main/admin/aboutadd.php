@@ -2,7 +2,7 @@
 session_start();
 require("config.php");
 
-if (!isset($_SESSION['auser'])) {
+oi(!isset($_SESSION['auser'])) {
 	header("location:index.php");
 }
 
